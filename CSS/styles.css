@@ -352,6 +352,7 @@ img {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: transparent;
+    transition: border-color var(--accent-color);
 
 }
 
@@ -373,13 +374,7 @@ img {
 
 }
 
-/* .check-box {
-    display: inline-block;
-    margin-right: 8px;
-    width: 16px;
-    height: 15px;
-    border: 2px solid var(--secondary-text-color);
-} */
+
 .modal-textarea {
     width: 100%;
     min-height: 120px;
@@ -394,6 +389,7 @@ img {
     line-height: 1.14;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+    transition: color var(--anmation), border-color var(--anmation);
 }
 
 .modal-textarea:focus {
@@ -402,9 +398,8 @@ img {
 
 
 .modal-checkbox {
-    display: fleblock;
-    align-items: center;
-    justify-content: center;
+    
+    margin-left: 25px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -428,7 +423,13 @@ img {
 }
 
 .checkbox-icon {
-  margin-right: 8px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 125px;
+  left: 45px;
+  border-radius: 4px;
   border: 2px solid var(--secondary-text-color);
   width: 16px;
   height: 15px;
@@ -497,7 +498,7 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--main-bg-color);
     
-    
+    transition: backgraund-color var(--anmation)
 }
 
 .button-close:hover {
@@ -1109,6 +1110,8 @@ img {
     
     border-radius: 4px;
     border: none;
+
+    transition: backgraund-color var(--anmation);
 
 }
 

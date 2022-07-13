@@ -332,10 +332,12 @@ img {
     letter-spacing: 0.01em;
     color: var(--main-text-color);
     
-
 }
 
+.modal-lable:nth-child(4n) {
+    margin-bottom: 0;
 
+}
 .form-input {
     position: relative;
     margin-bottom: 10px;
@@ -352,8 +354,8 @@ img {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: transparent;
-    transition: border-color var(--accent-color);
-
+    transition: border-color var(--anmation);
+    padding-left: 42px;
 }
 
 .modal-input:focus {
@@ -362,6 +364,7 @@ img {
 
 .modal-input:focus ~ .modal-icon {
     fill: var(--accent-color);
+   
     
 }
 
@@ -1059,7 +1062,7 @@ img {
 
 .footer-subscribe {
     display: block;
-    margin-left: 93px;
+    margin-left: auto;
     
 }
 
